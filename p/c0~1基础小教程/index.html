@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr">
     <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="">
-<title>Mfb</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="C++最基础的一些东西，在这（好几）次性讲完！\nC++不管是菜鸟还是老鸟，几乎可以说都在用Dev-C++作为编译器和编辑器，因为他出色的代码显示功能和自带编译器的便捷性，使他十分适用于初学者。\n">
+<title>C0~1基础小教程</title>
 
-<link rel='canonical' href='https://lovegamerod.github.io/p/mfb/'>
+<link rel='canonical' href='https://lovegamerod.github.io/p/c0~1%E5%9F%BA%E7%A1%80%E5%B0%8F%E6%95%99%E7%A8%8B/'>
 
-<link rel="stylesheet" href="/scss/style.min.663803bebe609202d5b39d848f2d7c2dc8b598a2d879efa079fa88893d29c49c.css"><meta property='og:title' content="Mfb">
-<meta property='og:description' content="">
-<meta property='og:url' content='https://lovegamerod.github.io/p/mfb/'>
+<link rel="stylesheet" href="/scss/style.min.663803bebe609202d5b39d848f2d7c2dc8b598a2d879efa079fa88893d29c49c.css"><meta property='og:title' content="C0~1基础小教程">
+<meta property='og:description' content="C++最基础的一些东西，在这（好几）次性讲完！\nC++不管是菜鸟还是老鸟，几乎可以说都在用Dev-C++作为编译器和编辑器，因为他出色的代码显示功能和自带编译器的便捷性，使他十分适用于初学者。\n">
+<meta property='og:url' content='https://lovegamerod.github.io/p/c0~1%E5%9F%BA%E7%A1%80%E5%B0%8F%E6%95%99%E7%A8%8B/'>
 <meta property='og:site_name' content='火柴棒のBlog'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2024-12-13T21:49:09&#43;08:00'/><meta property='article:modified_time' content='2024-12-13T21:49:09&#43;08:00'/>
-<meta name="twitter:title" content="Mfb">
-<meta name="twitter:description" content="">
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2024-12-13T23:37:26&#43;08:00'/><meta property='article:modified_time' content='2024-12-13T23:37:26&#43;08:00'/>
+<meta name="twitter:title" content="C0~1基础小教程">
+<meta name="twitter:description" content="C++最基础的一些东西，在这（好几）次性讲完！\nC++不管是菜鸟还是老鸟，几乎可以说都在用Dev-C++作为编译器和编辑器，因为他出色的代码显示功能和自带编译器的便捷性，使他十分适用于初学者。\n">
     <link rel="shortcut icon" href="/favicon.ico" />
 
     </head>
@@ -250,7 +250,7 @@
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href="/p/mfb/">Mfb</a>
+            <a href="/p/c0~1%E5%9F%BA%E7%A1%80%E5%B0%8F%E6%95%99%E7%A8%8B/">C0~1基础小教程</a>
         </h2>
     
         
@@ -288,7 +288,140 @@
     <section class="article-content">
     
     
-    
+    <p>C++最基础的一些东西，在这（好几）次性讲完！</p>
+<p>C++不管是菜鸟还是老鸟，几乎可以说都在用Dev-C++作为编译器和编辑器，因为他出色的代码显示功能和自带编译器的便捷性，使他十分适用于初学者。</p>
+<p>很可惜的是，<strong>Dev-C++</strong> 已经断更，但是非常好的是，有另一替代品！（算吧），那就是 <strong>Embarcadero Dev-C++</strong>。</p>
+<p>C++与其他语言的不同点（对于非代码小白），就是它的头文件。与Java类似，需要导入一定的头文件才能使用相应的库。</p>
+<p>例如<code>#include&lt;iostream&gt;</code>库，其中就包含了你从c0~c2中大部分要用到的东西。</p>
+<p>既然说到了头文件，就从头文件开始讲起吧。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl"><span class="cp">#include&lt;iostream&gt;
+</span></span></span></code></pre></td></tr></table>
+</div>
+</div><p>没错，实质上，C++的头文件就是这么一行东西，如果你要写多个头文件，直接换行按相同格式写即可。</p>
+<p>例：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl"><span class="cp">#include&lt;iostream&gt;
+</span></span></span><span class="line"><span class="cl"><span class="cp">#include&lt;cmath&gt;
+</span></span></span><span class="line"><span class="cl"><span class="cp">#include&lt;Windows.h&gt;
+</span></span></span></code></pre></td></tr></table>
+</div>
+</div><p>但是如果你去一些编程机构学习的话，他们会告诉你头文件这么写：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl"><span class="cp">#include&lt;iostream&gt;
+</span></span></span><span class="line"><span class="cl"><span class="cp"></span><span class="k">using</span> <span class="k">namespace</span> <span class="n">std</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="kt">int</span> <span class="nf">main</span><span class="p">(){</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Why?</p>
+<p>我们逐行来解释下。</p>
+<p>第一行已解释过，不再多言。</p>
+<p>第二行的 using namespace std 意思是在标准命名空间中编译你的代码（这并不是必须的，后面会讲）。</p>
+<p>3~5行则是准备进行的正式阶段，这几行代码在C++中叫做函数，而这一种叫做主函数，他是会在代码编译后自动运行的。这里的函数与数学中的一次函数，二次函数完全不同，你可以理解为函数就是提前写好的一个程序，当你需要时调用他便会执行。而主函数是最不一样的，他不需要被调用便会自动执行，所以我们所有的代码几乎都是写在主函数中的。（注意！主函数必须为int类型！）</p>
+<p>再来看主函数内部可以写什么。主函数内部则是几乎容纳任何事物，先来学几个C++的基础。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl"><span class="kt">int</span>
+</span></span><span class="line"><span class="cl"><span class="kt">float</span>
+</span></span><span class="line"><span class="cl"><span class="kt">double</span>
+</span></span><span class="line"><span class="cl"><span class="n">cin</span>
+</span></span><span class="line"><span class="cl"><span class="n">cout</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>一个个来，int的用法是定义一个整数的变量，例如：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl"><span class="kt">int</span> <span class="n">n</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>意思就是定义一个整数变量n并初始化为0。</p>
+<p>为什么说是整数变量，因为当你手动执行如</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl"><span class="n">n</span><span class="o">=</span><span class="mf">1.1</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="n">n</span><span class="o">=</span><span class="mf">114.514</span><span class="p">;</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>时，他会自动变为整数，并不是我们所说的“四舍五入”，而是直接去除小数部分。则实际上第一行会将n变成1，第二行会将n变为114。</p>
+<p>float和double就是小数类型的变量，通常使用double而非float因为double比float数据范围更大，能存储的数字更大，基本与int相同，除了能存储小数以外。</p>
+<p>cin是一个C++专有的输入，通常与&raquo;搭配。</p>
+<p>则：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl"><span class="n">cin</span><span class="o">&gt;&gt;</span><span class="n">n</span><span class="p">;</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>的意思就是输入n这个变量，cout正好相反</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl"><span class="n">cout</span><span class="o">&lt;&lt;</span><span class="n">n</span><span class="p">;</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>意思就是输出n。</p>
+<p>所以这个时候就能做一个简单的加法计算器了，加号在C++中就是+。</p>
+<p>加法计算器实例：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl"><span class="cp">#include&lt;iostream&gt;
+</span></span></span><span class="line"><span class="cl"><span class="cp"></span><span class="k">using</span> <span class="k">namespace</span> <span class="n">std</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="kt">int</span> <span class="nf">main</span><span class="p">(){</span>
+</span></span><span class="line"><span class="cl">    <span class="kt">int</span> <span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">;</span> <span class="c1">//这里能换成double实现小数加减
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="n">cin</span><span class="o">&gt;&gt;</span><span class="n">a</span><span class="o">&gt;&gt;</span><span class="n">b</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="n">cout</span><span class="o">&lt;&lt;</span><span class="n">a</span><span class="o">+</span><span class="n">b</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>那么第一节基础课就到这里，感谢支持！</p>
+
 </section>
 
 
