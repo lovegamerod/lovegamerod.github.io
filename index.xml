@@ -638,6 +638,7 @@ $$</description>
         <description>&lt;!--This is a test page for i18n support.--&gt;
 &lt;p&gt;我是火柴棒，来自中国浙江，就读于我们这里一个有名的初中（目前初二）&lt;/p&gt;
 &lt;p&gt;记得支持下我哦！&lt;/p&gt;
+&lt;p&gt;付款码 ↓（加载较慢，需稍微等待，若一直加载不出请刷新）&lt;/p&gt;
 &lt;img src=&#34;Alipay.jpg&#34;  width=&#34;300&#34; height=&#34;300&#34; /&gt;
 </description>
         </item>
