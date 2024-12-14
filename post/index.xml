@@ -7,7 +7,57 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Alistant Tom</copyright>
-        <lastBuildDate>Fri, 13 Dec 2024 23:37:26 +0800</lastBuildDate><atom:link href="https://lovegamerod.github.io/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 14 Dec 2024 14:45:08 +0800</lastBuildDate><atom:link href="https://lovegamerod.github.io/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>关于某些我做的小东西</title>
+        <link>https://lovegamerod.github.io/p/%E5%85%B3%E4%BA%8E%E6%9F%90%E4%BA%9B%E6%88%91%E5%81%9A%E7%9A%84%E5%B0%8F%E4%B8%9C%E8%A5%BF/</link>
+        <pubDate>Sat, 14 Dec 2024 14:45:08 +0800</pubDate>
+        
+        <guid>https://lovegamerod.github.io/p/%E5%85%B3%E4%BA%8E%E6%9F%90%E4%BA%9B%E6%88%91%E5%81%9A%E7%9A%84%E5%B0%8F%E4%B8%9C%E8%A5%BF/</guid>
+        <description>&lt;p&gt;HiHi，这里是闲到发慌的火柴棒啊!&lt;/p&gt;
+&lt;p&gt;最近也是新搭好了这个博客，就连更新几天吧&lt;/p&gt;
+&lt;p&gt;这一次的内容是来介绍一下我Github生涯里自主制作（抄袭）的一些小游戏&lt;/p&gt;
+&lt;h4 id=&#34;1升级承太郎&#34;&gt;&lt;strong&gt;1.升级承太郎&lt;/strong&gt;
+&lt;/h4&gt;&lt;p&gt;这里是fork了arcxingye大佬的EatKano仓库并按照教程一步步修改，总体就是一个简洁版+在网页上运行的别踩白块（也叫钢琴块）&lt;/p&gt;
+&lt;p&gt;支持手机触控，我个人觉得手机上玩体验更好（谁会在电脑上玩这种游戏啊喂）&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://lovegamerod.github.io/p/%E5%85%B3%E4%BA%8E%E6%9F%90%E4%BA%9B%E6%88%91%E5%81%9A%E7%9A%84%E5%B0%8F%E4%B8%9C%E8%A5%BF/game1.png&#34;
+	width=&#34;925&#34;
+	height=&#34;850&#34;
+	srcset=&#34;https://lovegamerod.github.io/p/%E5%85%B3%E4%BA%8E%E6%9F%90%E4%BA%9B%E6%88%91%E5%81%9A%E7%9A%84%E5%B0%8F%E4%B8%9C%E8%A5%BF/game1_hu8453302027803451265.png 480w, https://lovegamerod.github.io/p/%E5%85%B3%E4%BA%8E%E6%9F%90%E4%BA%9B%E6%88%91%E5%81%9A%E7%9A%84%E5%B0%8F%E4%B8%9C%E8%A5%BF/game1_hu3392000575871765025.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;升级承太郎&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;108&#34;
+		data-flex-basis=&#34;261px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/lovegamerod/EatJotaro&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Github仓库地址&lt;/a&gt;   &lt;a class=&#34;link&#34; href=&#34;https://jotarogame.hcbai.fun&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;游玩地址&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&#34;2踩踩背模拟器&#34;&gt;&lt;strong&gt;2.踩踩背模拟器&lt;/strong&gt;
+&lt;/h4&gt;&lt;p&gt;这就是单纯的把别人仓库fork过来了再绑到自己域名上而已（从某种角度来说就是我的（臭不要脸））&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://lovegamerod.github.io/p/%E5%85%B3%E4%BA%8E%E6%9F%90%E4%BA%9B%E6%88%91%E5%81%9A%E7%9A%84%E5%B0%8F%E4%B8%9C%E8%A5%BF/game2.png&#34;
+	width=&#34;1920&#34;
+	height=&#34;875&#34;
+	srcset=&#34;https://lovegamerod.github.io/p/%E5%85%B3%E4%BA%8E%E6%9F%90%E4%BA%9B%E6%88%91%E5%81%9A%E7%9A%84%E5%B0%8F%E4%B8%9C%E8%A5%BF/game2_hu15409062566835445752.png 480w, https://lovegamerod.github.io/p/%E5%85%B3%E4%BA%8E%E6%9F%90%E4%BA%9B%E6%88%91%E5%81%9A%E7%9A%84%E5%B0%8F%E4%B8%9C%E8%A5%BF/game2_hu16823849246666541761.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;踩踩背模拟器&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;219&#34;
+		data-flex-basis=&#34;526px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/lovegamerod/ccb-simulator&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Github仓库地址&lt;/a&gt;   &lt;a class=&#34;link&#34; href=&#34;https://ccb.hcbai.fun&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;游玩地址&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>C0~1基础小教程</title>
         <link>https://lovegamerod.github.io/p/c0~1%E5%9F%BA%E7%A1%80%E5%B0%8F%E6%95%99%E7%A8%8B/</link>
         <pubDate>Fri, 13 Dec 2024 23:37:26 +0800</pubDate>
