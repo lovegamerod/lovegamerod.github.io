@@ -16,6 +16,8 @@
         <description>&lt;img src="https://lovegamerod.github.io/p/c0~1%E5%9F%BA%E7%A1%80%E5%B0%8F%E6%95%99%E7%A8%8B/cpp.jpg" alt="Featured image of post C0~1基础小教程" /&gt;&lt;p&gt;C++最基础的一些东西，在这（好几）次性讲完！&lt;/p&gt;
 &lt;p&gt;C++不管是菜鸟还是老鸟，几乎可以说都在用Dev-C++作为编译器和编辑器，因为他出色的代码显示功能和自带编译器的便捷性，使他十分适用于初学者。&lt;/p&gt;
 &lt;p&gt;很可惜的是，&lt;strong&gt;Dev-C++&lt;/strong&gt; 已经断更，但是非常好的是，有另一替代品！（算吧），那就是 &lt;strong&gt;Embarcadero Dev-C++&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://sourceforge.net/projects/embarcadero-devcpp/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Embarcadero Dev-C++下载&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;C++与其他语言的不同点（对于非代码小白），就是它的头文件。与Java类似，需要导入一定的头文件才能使用相应的库。&lt;/p&gt;
 &lt;p&gt;例如&lt;code&gt;#include&amp;lt;iostream&amp;gt;&lt;/code&gt;库，其中就包含了你从c0~c2中大部分要用到的东西。&lt;/p&gt;
 &lt;p&gt;既然说到了头文件，就从头文件开始讲起吧。&lt;/p&gt;
