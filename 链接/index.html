@@ -517,7 +517,7 @@ function loadExternalResource(url, type) {
 }
 
 
-if (screen.width >= 768) {
+if (screen.width >= 0) {
 	Promise.all([
 		loadExternalResource(cssPath, "css"),
 		loadExternalResource(live2dPath, "js"),
