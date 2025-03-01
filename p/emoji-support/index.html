@@ -451,7 +451,9 @@
     <section class="copyright">
         &copy; 
         
-        2024 Alistant Tom
+            2024 - 
+        
+        2025 Alistant Tom
     </section>
     
     <section class="powerby">
@@ -588,7 +590,7 @@ function loadExternalResource(url, type) {
 }
 
 
-if (screen.width >= 0) {
+if (screen.width >= 768) {
 	Promise.all([
 		loadExternalResource(cssPath, "css"),
 		loadExternalResource(live2dPath, "js"),
